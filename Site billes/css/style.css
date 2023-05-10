@@ -1,0 +1,215 @@
+/*structure de la page*/
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fond_rouge.png);
+    background-size: 95%;
+    scroll-behavior: smooth;
+}
+
+.whiteBackground{
+    background-color: rgb(255, 255, 255);
+}
+
+.chat{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*textes*/
+.fontTitre{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 350%;
+    font-weight: bold;
+    color: #000000;
+}
+
+h2{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 350%;
+    color: black;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    margin-top: 2%;
+    font-size: 240%;
+    margin-bottom: 2%;
+    color: #E3020B;
+    text-shadow: 2px 2px 2px black;
+}
+
+p{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 125%;
+}
+
+
+/*navbar*/
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.textPink{
+    color: #b1000f;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.colorPinkTransition{
+    color: #d30a1b;
+    transition: 0.5s;
+}
+
+.colorPinkTransition:hover{
+    color: #a5131f;
+}
+
+#carouselAutoplaying{
+    scroll-margin-top: 55px;
+}
+
+#a-propos{
+    scroll-margin-top: 55px;
+}
+
+.intro{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#achats{
+    scroll-margin-top: 55px;
+}
+
+#prochainement{
+    scroll-margin-top: 55px;
+}
+
+#contacts{
+    scroll-margin-top: 55px;
+}
+
+
+/*carousel*/
+.carousel-inner h5{
+    text-shadow: 3px 3px 3px #cb747b;
+    font-size: 400%;
+}
+
+.carousel-inner p{
+    text-shadow: 2px 2px 2px #cb747b; 
+    font-size: 120%;
+}
+
+
+/*cartes*/
+.ui{
+    margin-top: 2%;
+}
+
+.achat h1{
+    margin-bottom: 3%;
+}
+
+.card img{
+    margin-top: 10px;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.roseatre{
+    background-color: #cb747b;
+    align-items: center;
+}
+
+.whiteText{
+    color: white;
+}
+
+.centerItems{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*panels*/
+.panels{
+    height: 70vh;
+    width: 100%;
+
+    display:flex;
+    margin-top: 2%;
+}
+
+.panel{
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover{
+    flex: 3;
+}
+
+.titreJeu{
+    color: #EFDE1C;
+    font-size: 350%;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.muta{
+    background-image: url("../img/index/piratedescaraibes.jpg");
+}
+.luna{
+    background-image: url("../img/index/harrypotter.jpg.jpg");
+}
+
+.chi{
+    background-image: url("../img/index/ninjago.jpg");
+}
+
+.stray{
+    background-image: url("../img/index/jurassicpark.jpg");
+}
+
+
+/*contacts*/
+
+.contacts{
+    padding-bottom: 5%;
+}
