@@ -1,0 +1,220 @@
+/*structure de la page*/
+html, body{
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+
+    scroll-behavior: smooth;
+}
+
+.pinkBackground{
+    background-color: rgb(241, 233, 233);
+}
+
+
+/*textes*/
+.fontTitre{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 400%;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #cb747b
+}
+
+h2{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 400%;
+    color: #cb747b;
+    text-shadow: 2px 2px 2px #e6aeb3;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    margin-top: 2%;
+    font-size: 240%;
+    margin-bottom: 2%;
+    color: #e6aeb3;
+    text-shadow: 2px 2px 2px #cb747b;
+}
+
+p{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 125%;
+}
+
+
+/*navbar*/
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.textPink{
+    color: #cb747b;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.colorPinkTransition{
+    color: #cb747b;
+    transition: 0.5s;
+}
+
+.colorPinkTransition:hover{
+    color: #e6aeb3;
+}
+
+#carouselAutoplaying{
+    scroll-margin-top: 55px;
+}
+
+#histoire{
+    scroll-margin-top: 50px;
+}
+
+#acheter{
+    scroll-margin-top: 50px;
+}
+
+#avis{
+    scroll-margin-top: 50px;
+}
+
+#contacts{
+    scroll-margin-top: 50px;
+}
+
+
+/*carousel*/
+.carousel-inner p{
+    text-shadow: 2px 2px 2px #cb747b; 
+    font-size: 120%;
+}
+
+
+/*trailer*/
+.trailer{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*panels*/
+.panels{
+    height: 60vh;
+    width: 99.1vw;
+
+    display:flex;
+    margin-top: 2%;
+}
+
+.panel{
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover{
+    flex: 3;
+}
+
+.titreJeu{
+    color: white;
+    font-size: 350%;
+    text-shadow: 3px 3px 3px #cb747b;
+}
+
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.suzume{
+    background-image: url("../img/daijin/suzume.jpg");
+}
+.sota{
+    background-image: url("../img/daijin/sota.jpg");
+}
+
+.daijin{
+    background-image: url("../img/daijin/daijin.jpg");
+}
+
+
+/*cartes achats*/
+.ui{
+    margin-top: 2%;
+}
+
+.sugg img{
+    margin-top: 10px;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.description{
+    padding-top: 6%;
+}
+
+.roseatre{
+    background-color: #cb747b;
+    align-items: center;
+}
+
+.whiteText{
+    color: white;
+}
+
+.centerItems{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+/*avis*/
+.avis h1{
+    margin-bottom: 3%;
+}
+
+.cartesAvis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*contacts*/
+.contacts{
+    padding-bottom: 5%;
+}
