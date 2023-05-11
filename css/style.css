@@ -101,7 +101,7 @@ p{
     font-weight: bold;
 }
 
-#achats{
+#elements{
     scroll-margin-top: 55px;
 }
 
@@ -125,13 +125,16 @@ p{
     font-size: 200%;
 }
 
+.grosTitre{
+    font-size: 500%;
+}
 
 /*cartes*/
 .ui{
     margin-top: 2%;
 }
 
-.achat h1{
+.element h1{
     margin-bottom: 3%;
 }
 
@@ -144,7 +147,7 @@ p{
 }
 
 .roseatre{
-    background-color: #cb747b;
+    background-color: #E23839;
     align-items: center;
 }
 
@@ -157,6 +160,9 @@ p{
     justify-content: center;
 }
 
+.reduc{
+    font-size: 110%;
+}
 
 /*panels*/
 .panels{
