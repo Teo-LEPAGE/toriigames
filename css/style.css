@@ -113,6 +113,10 @@ p{
     scroll-margin-top: 55px;
 }
 
+.imagegauche{
+    width: 90%;
+    margin-top: 80px;
+}
 
 /*carousel*/
 .carousel-inner h5{
