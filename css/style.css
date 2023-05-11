@@ -16,6 +16,10 @@ html, body{
     margin-right: 10%;
 }
 
+#blasonnav{
+    width: 3vw;
+}
+
 
 /*textes*/
 .fontTitre{
@@ -112,13 +116,13 @@ p{
 
 /*carousel*/
 .carousel-inner h5{
-    text-shadow: 3px 3px 3px #cb747b;
-    font-size: 400%;
+    text-shadow: 5px 5px 5px black;
+    font-size: 750%;
 }
 
 .carousel-inner p{
-    text-shadow: 2px 2px 2px #cb747b; 
-    font-size: 120%;
+    text-shadow: 2px 2px 2px black; 
+    font-size: 200%;
 }
 
 
