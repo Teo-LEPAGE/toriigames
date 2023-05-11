@@ -222,6 +222,15 @@ p{
 }
 
 
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.download{
+    padding-top: 50px;
+}
+
 /*contacts*/
 
 .contacts{
